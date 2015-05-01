@@ -1,4 +1,4 @@
-var dest = '../roomcast/interfaces/configuration-interface',
+var dest = './dist',
     src = './src',
     mui = './node_modules/material-ui/src';
 
@@ -27,7 +27,7 @@ module.exports = {
     },
     css: {
         src: src + "/css/**",
-        dest: dest
+        dest: dest + "/css"
     },
     fonts: {
         src: mui + '/less/material-design-fonticons/fonts/**',
@@ -37,7 +37,7 @@ module.exports = {
         src: mui + '/less/material-ui-icons/fonts/**',
         dest: dest + '/fonts'
     },
-    nutella3: {
+    nutella: {
         src: './node_modules/nutella_lib/dist/nutella_lib.js',
         dest: dest
     },
